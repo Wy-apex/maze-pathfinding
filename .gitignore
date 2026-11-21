@@ -1,0 +1,27 @@
+# Python虚拟环境
+.venv/
+.venv312/
+venv/
+
+# Python缓存与测试缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 编辑器本机配置
+.vscode/
+.idea/
+
+# 本地环境变量与密钥文件
+.env
+.env.*
+!.env.example
+
+# 临时文件
+*.log
+Thumbs.db
+.DS_Store
+
+check_window.py
